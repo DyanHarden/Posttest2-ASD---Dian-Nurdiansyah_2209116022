@@ -52,8 +52,21 @@ Program ini dapat mencari indeks suatu elemen pada list. Program juga dapat menc
 Jika data yang dicari lebih besar dari isi array pada indeks ke-i, maka jarak pencarian di depan menjadi lebih jauh sebesar angka fibonacci kedua. Nilai angka fibonacci pertama dihitung sebagai selisih antara angka fibonacci terakhir dan angka fibonacci kedua. Nilai offset diupdate menjadi i.
 
 ![Screenshot 2023-03-09 201502](https://user-images.githubusercontent.com/94899238/224020319-20a726dc-5777-46a8-8f87-f6e9f32d4fd0.png)
- Setelah loop while kedua selesai, dilakukan pengecekan apakah data yang dicari ada pada indeks offset+1, dan apakah angka fibonacci pertama masih lebih besar dari 0. Jika ya, maka data tersebut ditemukan pada indeks offset+1 dan indeks tersebut dikembalikan sebagai hasil pencarian.
+
+Setelah loop while kedua selesai, dilakukan pengecekan apakah data yang dicari ada pada indeks offset+1, dan apakah angka fibonacci pertama masih lebih besar dari 0. Jika ya, maka data tersebut ditemukan pada indeks offset+1 dan indeks tersebut dikembalikan sebagai hasil pencarian.
  
+![Screenshot 2023-03-09 201550](https://user-images.githubusercontent.com/94899238/224020724-482a91c4-ac09-4ae7-95da-b910c33f0064.png)
 
+Jika data yang dicari tidak ditemukan dalam array, maka -1 dikembalikan sebagai hasil pencarian.
 
+![Screenshot 2023-03-09 201817](https://user-images.githubusercontent.com/94899238/224020986-cf41f39b-9113-48c8-91c6-5bc39209b201.png)
 
+Jika data yang dicari tidak ditemukan di dalam array, maka fungsi mengembalikan nilai -1.
+
+![Screenshot 2023-03-09 202013](https://user-images.githubusercontent.com/94899238/224021425-f312f5b0-7a65-446b-ac2c-c289f5990f5d.png)
+
+Mendefinisikan list yang akan dicari.
+
+![Screenshot 2023-03-09 202024](https://user-images.githubusercontent.com/94899238/224021591-2a899243-7d8d-4948-a399-b610278e3929.png)
+
+Mencari indeks dari elemen-elemen pada list dalam list yang telah didefinisikan menggunakan fungsi fibonacci_search.
